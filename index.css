@@ -1,0 +1,24 @@
+iframe {
+    border: 0px;
+    overflow: hidden
+}
+
+.d-f {
+    display: flex
+}
+
+.a-i-c {
+    align-items: center
+}
+
+.j-c-eq {
+    justify-content: space-evenly
+}
+
+.m-l-10 {
+    margin-left: 10px
+}
+
+.p-t-5 {
+    padding-top: 5px
+}

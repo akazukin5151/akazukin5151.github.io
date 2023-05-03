@@ -22,6 +22,10 @@ iframe {
     justify-content: space-evenly
 }
 
+.j-c-c {
+    justify-content: center
+}
+
 .m-b-10 {
     margin-bottom: 10px
 }

@@ -1,6 +1,8 @@
 iframe {
     border: 0px;
-    overflow: hidden
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .d-f {

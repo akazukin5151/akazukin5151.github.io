@@ -65,3 +65,7 @@ iframe {
         margin-bottom: 5px;
     }
 }
+
+.cmap-imgs {
+    width: calc(min(400px, 50vw));
+}

@@ -49,6 +49,7 @@ iframe {
 .btn-row {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 @media (width <= 640px) {

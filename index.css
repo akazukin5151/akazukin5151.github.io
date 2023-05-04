@@ -1,3 +1,16 @@
+h1, h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-bottom: 0
+}
+
+h3 {
+    text-align: center;
+}
+
 iframe {
     border: 0px;
     overflow: hidden;
@@ -30,6 +43,14 @@ iframe {
     margin-bottom: 10px
 }
 
+.m-b-10-i {
+    margin-bottom: 10px !important
+}
+
+.m-b-15-i {
+    margin-bottom: 15px !important
+}
+
 .m-r-5 {
     margin-right: 5px
 }
@@ -42,14 +63,23 @@ iframe {
     margin-top: 10px
 }
 
+.m-t-30 {
+    margin-top: 30px
+}
+
 .m-l-n30 {
     margin-left: -30px
+}
+
+.title-chip-container {
+    display: flex;
+    align-items: center;
 }
 
 .btn-row {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 @media (width <= 640px) {
@@ -58,14 +88,46 @@ iframe {
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20px;
     }
 
     .btn-row a {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+
+    .title-chip-container {
+        flex-direction: column;
+    }
+
+    .title-chip-container h3 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (width >= 640px) {
+    .title-chip-container {
+        justify-content: space-between;
+    }
 }
 
 .cmap-imgs {
     width: calc(min(400px, 50vw));
+}
+
+.chip {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 1rem;
+}
+
+.chip li {
+    background-color: #f5dfa3;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    margin: 3px;
 }

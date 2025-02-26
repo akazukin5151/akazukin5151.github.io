@@ -4,6 +4,7 @@ h1, h2 {
 }
 
 h2 {
+    margin-top: 4rem;
     margin-bottom: 0
 }
 
@@ -160,3 +161,8 @@ iframe {
     padding-bottom: 8px;
     margin: 3px;
 }
+
+hr {
+    width: 100%;
+}
+

@@ -9,6 +9,10 @@ h2 {
 
 h3 {
     text-align: center;
+    /* margins moved to title-chip-container */
+    margin: 0;
+    /* shift bottom a bit to align with chip text */
+    padding-top: 5px;
 }
 
 a {
@@ -86,6 +90,9 @@ iframe {
 .title-chip-container {
     display: flex;
     align-items: center;
+    /* move margins from h3 to here, so h3 and chips are aligned */
+    margin-top: 3rem;
+    margin-bottom: 32px;
 }
 
 .btn-row {
@@ -149,5 +156,7 @@ iframe {
     border-radius: 20px;
     width: fit-content;
     padding: 10px;
+    /* inner text is vertically aligned to top, so slightly reduce padding in bottom */
+    padding-bottom: 8px;
     margin: 3px;
 }

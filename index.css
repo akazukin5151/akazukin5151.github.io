@@ -94,6 +94,17 @@ iframe {
     margin-bottom: 15px;
 }
 
+.chip {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: end;
+}
+
 @media (width <= 640px) {
     .btn-row {
         display: flex;
@@ -116,6 +127,11 @@ iframe {
     .title-chip-container h3 {
         margin-bottom: 10px;
     }
+
+    .chip {
+      justify-content: center;
+      max-width: unset;
+    }
 }
 
 @media (width >= 640px) {
@@ -126,14 +142,6 @@ iframe {
 
 .cmap-imgs {
     width: calc(min(400px, 50vw));
-}
-
-.chip {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    font-size: 1rem;
 }
 
 .chip li {

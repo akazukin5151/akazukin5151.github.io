@@ -154,6 +154,8 @@ iframe {
 
 .chip li {
     background-color: #fccece;
+    /* same --text var from light theme, but for dark mode as well */
+    color: #212121;
     border-radius: 20px;
     width: fit-content;
     padding: 10px;
@@ -174,3 +176,17 @@ hr {
     box-shadow: 2px 2px 5px #ddd;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent: #ffb4b4;
+    }
+
+    img {
+      /* remove rule from simple.css */
+        opacity: 1;
+    }
+
+    .inv-dark {
+        filter: invert(1);
+    }
+}

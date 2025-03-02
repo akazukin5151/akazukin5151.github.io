@@ -190,3 +190,10 @@ hr {
         --accent: #F06A6A;
     }
 }
+
+.title {
+    background: linear-gradient(to right, #ffb4b4, #F06A6A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

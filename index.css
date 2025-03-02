@@ -91,6 +91,7 @@ iframe {
 .title-chip-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /* move margins from h3 to here, so h3 and chips are aligned */
     margin-top: 3rem;
     margin-bottom: 32px;
@@ -113,13 +114,12 @@ iframe {
     justify-content: end;
 }
 
-@media (width <= 640px) {
+@media (max-width: 640px) {
     .btn-row {
         display: flex;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
     }
 
     .btn-row a {
@@ -127,24 +127,18 @@ iframe {
         margin-bottom: 5px;
     }
 
-
     .title-chip-container {
         flex-direction: column;
+        margin-bottom: 22px;
     }
 
-    .title-chip-container h3 {
+    .s-m-b-10 {
         margin-bottom: 10px;
     }
 
     .chip {
       justify-content: center;
       max-width: unset;
-    }
-}
-
-@media (width >= 640px) {
-    .title-chip-container {
-        justify-content: space-between;
     }
 }
 

@@ -190,3 +190,9 @@ hr {
         filter: invert(1);
     }
 }
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --accent: #F06A6A;
+    }
+}

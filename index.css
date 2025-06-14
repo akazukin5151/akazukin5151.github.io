@@ -149,7 +149,7 @@ iframe {
 .chip li {
     background-color: #fccece;
     /* same --text var from light theme, but for dark mode as well */
-    color: #212121;
+    color: #a73737;
     border-radius: 20px;
     width: fit-content;
     padding: 10px;
@@ -192,7 +192,7 @@ hr {
 }
 
 .title {
-    background: linear-gradient(to right, #ffb4b4, #F06A6A);
+    background: linear-gradient(to right, #ffb4b4, #D264FA);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

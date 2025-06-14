@@ -191,6 +191,11 @@ hr {
     }
 }
 
+:root {
+  --sans-font: "Nimbus Sans L",Arial,Helvetica,"Helvetica Neue",sans-serif;
+  --mono-font: "Fira Code",monospace;
+}
+
 .title {
     background: linear-gradient(to right, #ffb4b4, #D264FA);
     -webkit-background-clip: text;

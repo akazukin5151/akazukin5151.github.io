@@ -202,3 +202,13 @@ hr {
     background-clip: text;
     color: transparent;
 }
+
+.list-header {
+  font-weight: bold;
+}
+
+.contents {
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding-left: 15px;
+}

@@ -197,7 +197,7 @@ hr {
 }
 
 .title {
-    background: linear-gradient(to right, #ffb4b4, #D264FA);
+    background: linear-gradient(to bottom, #ffb4b4, #D264FA);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
